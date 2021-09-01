@@ -16,8 +16,7 @@
   <body>
 <!-- Navbar starts here -->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-secondary
-">
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
           <img class=" nav-logo" src="./images/red-classic-car.webp " alt="red-classic-car"></a>
@@ -27,13 +26,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Cars</a>
+            <a class="nav-link active" aria-current="page" href="#car-listing">Cars</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Enquires</a>
+            <a class="nav-link" href="#enquires-cars">Enquires</a>
           </li>
                     <li class="nav-item">
-            <a class="nav-link Join Us" href="#" tabindex="-1" aria-disabled="true">Contacts</a>
+            <a class="nav-link Join Us" href="#contact-car" tabindex="-1" aria-disabled="true">Contacts</a>
           </li>
         </ul>
         
@@ -45,16 +44,16 @@
 
 <!--Heading-->
 
-<h1 class="text-center font-cursive">Vintage Cars For Hire</h1>
+<h1 class="text-center font-cursive pt-3">Vintage Cars For Hire</h1>
 
 
 <!--car Listing start here-->
 <section class=" container container-listing">
-    <h3 class="font-cursive">Car Listing</h3>
+    <h3 class="font-cursive" id="car-listing">Car Listing</h3>
     <div class="row">
         <!--car book 1-->
         <div class="col">
-            <div class="card" style="width: 15rem;">
+            <div class="card mb-5" style="width: 15rem;">
                 <img src="./images/car-2.webp" class="card-img-top" alt="car1">
                 <div class="card-body">
                   <h5 class="card-title">Success Classic Car</h5>
@@ -104,8 +103,12 @@
                <!-- end car listing-->
 
 <!-- Enquires starts here -->
-<section class="container bg-secondary">
-    <h3 class="font-cursive">Enquire about a car</h3>
+<section class="container bg-secondary1 pt-3">
+    <div class="row">
+        <div class="col">
+        <div class="bg-secondary">
+    
+    <h3 class="font-cursive" id="enquires-cars">Enquire about a car</h3>
     <div class="row">
         <form>
             <div class="mb-3">
@@ -132,17 +135,35 @@
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
+        </div>
+        </div>
+        </div>
 </section>
 <!-- Enquires ends here -->
+
+<!--contacts start here-->
+<section class="container pt-3">
+    <div class="row">
+        <div class="col">
+    <h4 class="font-cursive pt-3" id="contact-car">Contact</h4>
+    <div> Address: 27 Carlisle Street, St Kilda, VIC 3182</div>
+       <div> Phone: xxxxxxxxx</div>
+        <div>Email: <a href="mailto:xxxxxx@xxx.com" >xxxxxx@xxx.com</a></div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.703462918695!2d144.9786778148758!3d-37.86722837974272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad66867aea2d7d5%3A0x90052fba988075d6!2s27%20Carlisle%20St%2C%20St%20Kilda%20VIC%203182!5e0!3m2!1sen!2sau!4v1630469872280!5m2!1sen!2sau" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</div>
+</section>
 
 
 <!-- Footer starts here -->
 <footer class="footer text-center">
     Copyright 2021.@Created by Shumaila Kashif.
+    <a href="#" class="back text-right">Back to Top</a>
 </footer>
 <!-- Footer ends here -->
 
-<a href="#" class="back">Back to Top</a>
 
 
 </body>

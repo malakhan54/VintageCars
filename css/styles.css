@@ -2,7 +2,6 @@
   font-family: "Great Vibes", cursive;
 }
 .nav {
-  background-color: cornflowerblue;
 }
 .nav-logo {
   width: 40px;
@@ -12,6 +11,7 @@
 .container-listing .card {
   border-left: 10%;
   border-right: 10%;
+  height: 100%;
 }
 .container-listing img {
   border-radius: 10%;
