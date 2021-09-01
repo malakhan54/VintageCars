@@ -9,10 +9,11 @@
 }
 
 .container-listing .card {
-  border-left: 10%;
-  border-right: 10%;
+  border-radius: 10% 10% 0 10%;
   height: 100%;
 }
 .container-listing img {
-  border-radius: 10%;
+  border-radius: 0 10%;
+.back{
+    margin-left: 100px;
 }
