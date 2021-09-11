@@ -1,19 +1,29 @@
 .font-cursive {
   font-family: "Great Vibes", cursive;
 }
-.nav {
-}
 .nav-logo {
   width: 40px;
   height: auto;
+}
+.bg-theme {
+  background-color: maroon;
+  color: lightseagreen !important;
 }
 
 .container-listing .card {
   border-radius: 10% 10% 0 10%;
   height: 100%;
+  background-color: rgb(215, 227, 228);
 }
 .container-listing img {
   border-radius: 0 10%;
-.back{
-    margin-left: 100px;
+}
+.back {
+  margin-left: 100px;
+}
+.container-enquires {
+  border-radius: 5% 5% 5% 5%;
+  background-color: lightgrey;
+  margin-top: 5%;
+  padding-bottom: 10px;
 }
